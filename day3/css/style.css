@@ -162,6 +162,7 @@ span {
 .about-content h3 {
   font-size: 3.2rem;
   font-weight: 700;
+  text-shadow: 0 0 3px #184b12, 0 0 5px #1eff00;
 }
 
 .about-content h1 {
@@ -210,6 +211,7 @@ span {
 
 .comisbox h3 {
   font-size: 2.6rem;
+  text-shadow: 0 0 3px #184b12, 0 0 5px #1eff00;
 }
 
 .comisbox p {
