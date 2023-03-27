@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <script src="https://www.w3schools.com/lib/w3.js"></script> -->
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .navbar {
+        background-color: black;
+        width: 100%;
+        position: fixed;
+        z-index: 99999;
+      }
+      .navbar-nav {
+        display: flex;
+        /* width: 300px;
+        height: 35px; */
+        flex-direction: row;
+        /* align-items: center; */
+      }
+      .nav-conten {
+        padding: 12px;
+      }
+      .navbar a {
+        text-decoration: none;
+        color: white;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: larger;
+      }
+      .navbar a:hover {
+        background-color: gainsboro;
+        color: black;
+      }
+      #Home {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      #about {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #member {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #memberfoto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="conten"> -->
+    <div class="navbar">
+      <div class="navbar-nav">
+        <a href="#Home" class="nav-conten">Home</a>
+        <a href="#about" class="nav-conten">About</a>
+        <a href="#member" class="nav-conten">Member</a>
+        <a href="#" class="nav-conten">Contact</a>
+      </div>
+    </div>
+
+    <!-- Home Conten -->
+    <div id="Home" class="homeconten">
+      <!-- Slides -->
+      <img class="slides" src="theband.jpg" alt="band" width="100%" />
+      <!-- <img
+        class="slides"
+        src="Cattera-band-photo.jpg"
+        alt="band"
+        width="100%"
+      />
+      <img class="slides" src="kochengband.avif" alt="band" width="100%" />
+      <img class="slides" src="FantasticCat.webp" alt="band" width="100%" /> -->
+
+      <!-- slider -->
+      <!-- <script>
+        w3.slideshow(".slides", 1500);
+      </script> -->
+    </div>
+    <!-- ABOUT -->
+    <div id="about">
+      <h1>The Band</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+        suscipit molestias impedit dicta aspernatur, corrupti eveniet
+        perferendis? Mollitia assumenda distinctio, labore laboriosam deserunt,
+        doloribus voluptate similique aliquid, pariatur voluptatum ipsam.
+        Distinctio placeat ad dicta, quas architecto nihil voluptates tempora
+        recusandae minus deleniti facilis voluptas magni consectetur quis? Vel
+        eius libero alias quaerat tempore. Sint consequuntur quibusdam
+        consectetur voluptatibus dolorem tempore! Corrupti ratione ad ab? Modi
+        consectetur assumenda dolores rem eos dolorum repellat corporis sunt
+        alias dicta eum, iure possimus? Voluptas tempora reiciendis rerum
+        consectetur maxime doloribus voluptates provident repellendus non. Rem,
+        eveniet aliquid soluta facilis excepturi iure, iusto ea placeat expedita
+        quod doloribus et eaque id nam nobis provident a illum iste sed
+        repellendus quae. Quidem inventore nostrum amet quisquam. Fuga quas
+        voluptas, blanditiis enim aliquam repudiandae quos at ratione saepe
+        ducimus asperiores dolorum quidem quod fugiat perferendis. Saepe, maxime
+        id! Ullam beatae maiores commodi sapiente, dicta facere vero cumque?
+      </p>
+    </div>
+    <!-- BAND MEMBER -->
+    <div id="member">
+      <h1>Band Member</h1>
+    </div>
+    <div id="memberfoto">
+      <img
+        src="loreng.jpg"
+        class="member-content"
+        width="200px"
+        height="300px"
+      />
+      <img src="oyen.jpg" class="member-content" width="200px" height="300px" />
+      <img
+        src="tuxedo-cats.jpg"
+        class="member-content"
+        width="200px"
+        height="300px"
+      />
+      <img
+        src="cool-hooded-black-cat.jpg"
+        class="member-content"
+        width="200px"
+        height="300px"
+      />
+    </div>
+  </body>
+</html>
